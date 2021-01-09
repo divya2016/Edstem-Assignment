@@ -1,0 +1,64 @@
+{
+	"variables": [],
+	"info": {
+		"name": "assignment",
+		"_postman_id": "8b1c87e0-101c-7247-e250-3f4dec6c0752",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "delete operation",
+			"request": {
+				"url": "http://127.0.0.1:8080/CMS/v1/contact/delete/9999107948",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "get/9999107947",
+			"request": {
+				"url": "http://127.0.0.1:8080/CMS/v1/contact/get/9999107947",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "getAll",
+			"request": {
+				"url": "http://127.0.0.1:8080/CMS/v1/contact/getAll",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "contact/create",
+			"request": {
+				"url": "http://127.0.0.1:8080/CMS/v1/contact/create",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"data\":{\n\t\t\"name\":\"divya rani\",\n\t\t\"phoneNumber\":\"9999107940\",\n\t\t\"email\":\"\",\n\t\t\"address\":\"\"\n\t}\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
