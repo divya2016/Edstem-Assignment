@@ -15,5 +15,7 @@ git clone repoLink
 2. Edit the application.properties file to match your desired host and domain.
 3. Create a MongoDB database service instance and bind it.
 4. Update application. properties with MongoDB credentials.
+5. Run Maven Build Command i.e. - mvn clean build.
+6. This will create the WAR File, deploy the war file on server.
 
 And you should have a working CMS.
