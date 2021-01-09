@@ -16,7 +16,7 @@ Steps :
 
 1. Clone the CMS repo to the host where we want to deploy the code-
 
-git clone https://github.com/divya2016/Edstem-Assignment.git
+  git clone https://github.com/divya2016/Edstem-Assignment.git
 
 2. Edit the application.properties file to match your desired host and domain.
 3. Create a MongoDB database service instance and bind it.
